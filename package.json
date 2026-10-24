@@ -1,0 +1,12 @@
+{
+  "name": "little-companions-source",
+  "private": true,
+  "version": "0.8.1",
+  "license": "MIT",
+  "scripts": {
+    "test": "node desktop/model.test.js && node desktop/engine.test.js && node tests/design.test.js && node tests/update.test.js",
+    "test:render": "node tests/render.test.js",
+    "test:ui": "node tests/ui.test.js"
+  },
+  "devDependencies": {"@napi-rs/canvas": "0.1.100", "playwright": "1.62.1"}
+}

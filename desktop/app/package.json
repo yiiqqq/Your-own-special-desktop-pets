@@ -1,0 +1,15 @@
+{
+  "name": "little-companions",
+  "productName": "小小造物站",
+  "version": "0.8.1",
+  "main": "main.js",
+  "description": "Player-created desktop companions",
+  "author": "Personal project",
+  "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "45.0.0"
+  }
+}
