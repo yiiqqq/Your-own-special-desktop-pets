@@ -57,4 +57,4 @@ Windows 玩家可直接使用完整解压后的发布包，无需安装 Node.js�
 
 程序下载：https://github.com/yiiqqq/Your-own-special-desktop-pets/releases/latest
 
-0.8.1 已预填更新地址；0.8.0 用户可在设置里填写一次 `https://raw.githubusercontent.com/yiiqqq/Your-own-special-desktop-pets/main/updates/latest.json`。是否发布成功，以链接实际返回的内容为准。Mac / Windows 实际验证结果见 `docs/VALIDATION.md`。自动更新尚未上线，Windows 原生桌面和更新重启仍需实机验收。
+0.8.1 已预填更新地址；0.8.0 用户可在设置里填写一次 `https://raw.githubusercontent.com/yiiqqq/Your-own-special-desktop-pets/main/updates/latest.json`。固定更新地址已上线；0.8.0 客户端已实际联网发现 0.8.1，并完成公网下载的签名和完整性校验。详细记录见 `docs/ONLINE_RELEASE.md`。Windows 原生桌面和更新替换/重启仍需实机验收。
